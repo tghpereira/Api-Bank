@@ -1,0 +1,13 @@
+
+@name = Tiago Henrique Pereira
+@email = tghpereira@gmail.com
+### Sign Up Customer
+
+POST http://localhost:5167 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "{{name}}",
+    "email": "{{email}}"
+}
+
